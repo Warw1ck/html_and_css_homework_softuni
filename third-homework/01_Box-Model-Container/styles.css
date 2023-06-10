@@ -1,0 +1,12 @@
+/* TODO: style the html */
+body{
+    background-color: lightslategray;
+}
+section{
+    width: 300px;
+    border: solid 2px #e6eaef;
+    background-color: #0F4069;
+    border-radius: 15px 50px;
+    padding: 20px;
+    color: whitesmoke;
+}

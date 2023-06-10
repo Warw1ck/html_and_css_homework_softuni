@@ -1,0 +1,14 @@
+/* TODO: style the html */
+
+img{
+    border-right: solid 1px #d1d1d1;
+    margin-right: 19px;
+    padding-right: 19px;
+    float: left;
+}
+p{
+    text-align: justify;
+    color:#2e2e2e;
+    font-size: 20px;
+    line-height: 30px;
+}

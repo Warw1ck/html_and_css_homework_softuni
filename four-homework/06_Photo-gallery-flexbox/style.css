@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10em;
+}
+body, ul, li{
+    display: flex;
+}
+ul{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+}
+li{
+
+    border: 5px solid black;
+    padding: 1em;
+    margin-bottom: 5em;
+    align-items: center;
+    
+
+
+}
