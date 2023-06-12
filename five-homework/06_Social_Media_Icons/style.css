@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    display: block;
+    list-style: none;
+    
+    
+    
+}
+a{
+    display: flex;
+    text-decoration: none;
+    text-align: center;  
+    
+    width: 1.5em;
+    height: 1.5em; 
+    line-height: 1em; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 220, 220);
+    border-radius: 50%;
+
+}
+ul{
+    display: flex;
+    gap: 1em;
+    
+}
+a:hover{
+    background-color: black;
+    fill: white;
+}

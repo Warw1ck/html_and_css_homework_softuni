@@ -1,0 +1,72 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-part{
+    position: relative;
+    height: 50vh;
+    background-image: linear-gradient(to right, rgb(25, 124, 166) , rgb(206, 255, 72));
+    overflow: hidden;
+}
+.second-part{
+    position: relative;
+    height: 50vh;
+    background-image: linear-gradient(to right, rgb(155, 75, 155) , orange);
+    overflow: hidden;
+}
+.card{ 
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4%;
+    overflow: hidden;
+    width: 80%;
+    
+    
+}
+.card::after{
+    display: block;
+    content: '';
+    position:absolute;
+    inset: 0;
+    opacity: 0.4;
+    background-color: rgba(0, 0, 0, 0.409);
+}
+.card:hover::after{
+    opacity: 0;
+}
+
+.card img{
+
+    width:auto ;
+    height: 100%;
+    
+}
+.portrait{
+    width: auto;
+    height: 50%;
+}
+.up-portrait{
+    width: auto;
+    height: 90%;
+}
+.card svg{
+    fill: white;
+    width: 10%;
+    height: 10%;
+    
+}
+.icon{
+    display: flex;
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    justify-content: end;
+    align-items: end;
+    padding: 5%;
+}
