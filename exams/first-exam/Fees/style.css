@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400&family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&family=Montserrat:ital,wght@0,400;1,300;1,400&family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 0.7em;
+    font-family: Montserrat, serif;
+    color: rgba(84,84,109,255);
+}
+a{
+    text-decoration: none;
+    color: rgba(84,84,109,255);
+}
+.softuni-logo svg{
+
+    height: 3.5em;
+
+}
+header{
+    display: flex;
+    font-family: Montserrat, serif;
+    justify-content: space-between;
+    padding: 1em 7em 1em 7em;
+    
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+    gap: 1em;
+    
+}
+.charges h1{
+    color: white;
+    
+    font-size: 1.65em;
+    text-align: center;
+    font-weight: 600;
+    
+}
+.charges{
+    background-color: rgba(84,84,109,255);
+    background: linear-gradient(
+        to top,
+        white 0%,
+        white 40%,
+        rgba(84,84,109,255) 40%,
+        rgba(84,84,109,255) 100%
+      );
+    padding-top: 4em;
+    padding-bottom: 4em;
+    
+}
+.options{
+    margin-top: 2em;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card .info{
+    padding: 2em;
+    height: 14em;
+    flex: 1 1 70%;
+}
+.card .info h1{
+    color: rgba(84,84,109,255);
+
+}
+
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    width: 30em;
+    border-radius: 1em;
+    overflow: hidden;
+    
+    
+}
+.price{
+    background-image: linear-gradient(to right, rgba(2,154,60,255) , rgba(75,214,128,255));
+    padding: 1em;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    height: 8em;
+}
+.price div{
+    padding-top: 0.8em;
+    padding-bottom: 1.8em;
+    flex: 1 0 50%;
+}
+.info a{
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgba(154,93,198,255);
+    
+    color: white;
+    padding: 1em 2.2em 1em 2.2em ;
+    border-radius: 2em;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.info p{
+    margin-bottom: 2em;
+}
+.info h1{
+    margin-bottom: 0.2em;
+}
+.price p{
+    margin-top: 1em;
+}
+.second div:first-child, .third div:first-child{
+    border-right: 0.1em solid white;
+
+}
+.second{
+    background-image: linear-gradient(to right,  rgba(76,107,136,255) , rgba(97,153,205,255)) !important;
+   
+}
+.third{
+    background-image: linear-gradient(to right,  rgba(77,58,168,255) , rgba(138,123,223,255));
+   
+}
+.calculator{
+    position: absolute;
+    left: -5em;
+    top: 10em;
+
+}
+.course-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    gap: 3em;
+    
+}
+.course-info div{
+    width: 75em;
+}
+
+td {
+    padding: 1em;
+  }
+.course-info table tr:nth-child(odd){
+    background-color: rgba(230,230,230,255);
+}
+.course-info table tr:nth-child(even){
+    background-color: rgba(248,248,248,255);
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 0.5em 0em  0.5em 0.5em;
+    overflow: hidden;
+    text-align: left;
+  }
+.course-info h2{
+    margin-bottom: 1em;
+}
+.course-info svg{
+    height: 1em;
+}
+.course-info table tr td:nth-child(1){
+    width: 70%;
+}
+.course-info table tr td:nth-child(2){
+    width: 20%;
+}
+.course-info table tr td:nth-child(3){
+    width: 10%;
+}
+.credit-info{
+    display: flex;
+    padding: 5em;
+    gap: 5em;
+}
+.credit-info img{
+    height: 7em;
+}
+.bank-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.credit-info h2{
+    margin-bottom: 1em;
+}
+.credit-info .info p:nth-child(3){
+   margin-bottom: 0;
+}
+footer{
+    background-color: rgba(84,84,109,255);
+    color: rgba(114,113,140,255);
+    text-align: center;
+    padding-block: 2em;
+}

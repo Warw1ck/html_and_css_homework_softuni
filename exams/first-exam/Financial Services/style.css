@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 2em;
+    font-size: small;
+}
+header{
+    text-align: center;
+    margin-bottom: 2em;
+}
+header span{
+    color: rgba(50,125,196,255);
+}
+.choises{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+    gap: 1em;
+}
+.card{
+    background-color: rgb(134,158,175);
+    display: flex;
+    overflow: hidden;
+    width: 22em;
+    flex-wrap: wrap;
+    border-radius: 1.5em;
+    
+}
+.picture{
+    display: inline;
+    border-radius: 0 0 2em 2em;
+    overflow: hidden;
+    height: 15em;
+}
+a{
+    color:white;
+    background-color: rgba(50,125,196,255);
+    border-radius: 1.5em;
+    padding: 0.5em;
+    text-decoration: none;
+    font-size: smaller;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 0.1em solid rgba(255, 255, 255, 0.93);
+}
+.info{
+    flex: 1 0 100%;
+    padding: 1em;
+    
+}
+.info p{
+    font-size: smaller;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
