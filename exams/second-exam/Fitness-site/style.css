@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'PT Sans';
+    box-sizing: border-box;
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: rgba(208,25,25,255);
+    color: rgba(253,250,254,255);
+    fill: rgba(253,250,254,255);
+    font-size: small;
+}
+header div, ul{
+    display: flex;
+    gap: 0.4rem;
+}
+.introduction{
+    overflow: hidden;
+    color:rgba(253,250,254,255);
+    background-image: url('image/fitness-main.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    height: 30rem; 
+}
+.introduction ul{
+    justify-content: end;
+    gap: 3rem;
+    padding: 1rem 2rem 1rem 2rem;
+    
+}
+.introduction li{
+    font-size: small;
+    font-weight: bold;
+    
+}
+.introduction section{
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    
+}
+.introduction section div{
+    flex: 0 0 40rem;
+    text-align: center;
+    padding: 6rem;
+}
+.introduction section div h1{
+    font-size: 3.5rem;
+}
+.introduction section div p{
+    margin: 2em 6em 2em 6em;
+}
+.introduction a{
+    background-color: rgba(208,25,25,255);
+    padding:  0.4rem 1.5rem 0.6rem 1.5rem;;
+    color: rgba(253,250,254,255);
+    border-radius: 0.2rem;
+    font-size: small;
+    font-weight: 600;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+.option{
+    text-align: center;
+    width: 19rem;
+}
+.icon{
+    height: 3.5rem;
+    margin-bottom: 1rem;
+}
+.icon img{
+    height: 100%;
+}
+.option p:nth-child(2){
+    color: rgba(208,25,25,255);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.info{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info h1{
+    font-size: 2rem;
+}
+.border{
+    margin: 2rem;
+    width: 2rem;
+    border: 2px solid rgba(208,25,25,255);
+}
+.coaches{
+    background-color: rgba(239,239,239,255);
+    font-size: small;
+}
+.picture-coach{
+    height: 13rem;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+.picture-coach img{
+    height: 100%;
+}
+.coaches-info{
+    padding: 2rem;
+}
+.coaches-info p:last-child{
+    color: grey;
+}
+footer{
+    background-color: rgba(208,25,25,255);
+    color: black;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    text-align: center;
+}

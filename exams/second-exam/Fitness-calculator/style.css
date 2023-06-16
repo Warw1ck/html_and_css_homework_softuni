@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans';
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5em;
+}
+
+.card{
+    background-color: rgb(246, 247, 248);
+    display: flex;
+    width: 150em;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: 0.1em solid rgba(164,165,165,255);
+}
+.picture{
+
+    width: 50%;
+}
+.picture img{
+    height: 100%;
+    width: 100%;
+}
+.content{
+    width: 50%;
+    text-align: center;
+    padding: 5em;
+}
+label{
+    display: block;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.content h1{
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+.calc-but{
+    margin-top: 4em;
+    background-color: rgb(5, 162, 211);
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 1em;
+    padding-block: 0.5em;
+}
+.metrics, .year, .weight, .height{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.year{
+    gap: 3em;
+}
+#genre , .years{
+    width: 30%;
+}
+.weight input{
+    width: 80%;
+
+}
+.height input{
+    width: 40%;
+}
+.metrics{
+    justify-content: space-around;
+}
+.metrics button{
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5em;
+    border: 0.15em solid black;
+}
+.metrics button:first-child{
+    background-color: rgba(134,216,98,255);
+
+}
+.metrics button:last-child{
+    background-color: rgba(224,224,223,255);
+}

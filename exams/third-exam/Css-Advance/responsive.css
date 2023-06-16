@@ -1,0 +1,41 @@
+@media (width <= 600px){
+    main{
+        margin: 0;
+        width: 100%;
+    }
+    body{
+        margin: 0;
+    }
+    main .left-to-right article{
+        border-radius: 25%;
+        padding: 1em;
+    }
+    .left-to-right:first-child{
+        padding: 2em;
+    }
+    button{
+        display: none;
+    }
+    main section:nth-child(2), main section:nth-child(4){
+        display: flex;
+        flex-direction: column;
+        padding: 0em 3em 0em 3em;
+        margin: 0;
+    
+    }
+    main section:nth-child(2) article, main section:nth-child(4) article{
+        margin: 0;
+    }
+    main section:nth-child(2) article h1{
+        font-size: 2em;
+        
+    }
+    main section:nth-child(4){
+        padding-top: 1em;
+    }
+    main section:nth-child(4) article{
+        padding-left: 2em;
+        padding-right: 2em;
+        
+    }
+}
